@@ -12,16 +12,16 @@ epl_squad_shooting_for = pd.read_html("https://fbref.com/en/comps/9/Premier-Leag
 epl_squad_shooting_for.head(10)
 
 # EPL squad passing stats
-#epl_squad_pass_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_passing_for"})
+epl_squad_pass_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_passing_for"})
 
 # EPL squad goal + shot creation stats
-#epl_squad_goal_shot_crt_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_gca_for"})
+epl_squad_goal_shot_crt_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_gca_for"})
 
 # EPL squad defensive action stats
-#epl_def_actns_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_defense_for"})
+epl_def_actns_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_defense_for"})
 
 # EPL squad possession stats
-#epl_squad_possession_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_possession_for"})
+epl_squad_possession_for = pd.read_html("https://fbref.com/en/comps/9/Premier-League-Stats", attrs={"id": "stats_squads_possession_for"})
 
 
 
