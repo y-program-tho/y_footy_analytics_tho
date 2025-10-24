@@ -30,14 +30,14 @@ def epl_for_league_data(szn_yrs):
     try:
         epl_squad_pass_for = pd.read_html("https://fbref.com/en/comps/9/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"-Premier-League-Stats",
                                                    attrs={"id": "stats_squads_passing_for"})[0]
-        print("FBref EPL squad goal/shot creation data downloaded")
+        print("FBref EPL squad passing data downloaded")
     except:
         epl_squad_pass_for = pd.DataFrame()
         print("No new Fbref squad passing data acquired")
     # 5 - EPL squad goal and shot creation stats
     try:
         epl_squad_goal_shot_crt_for = pd.read_html("https://fbref.com/en/comps/9/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"-Premier-League-Stats",
-                                                   attrs={"id": "stats_squads_shooting_creation_for"})[0]
+                                                   attrs={"id": "stats_squads_gca_for"})[0]
         print("FBref EPL squad goal/shot creation data downloaded")
     except:
         epl_squad_goal_shot_crt_for = pd.DataFrame()
