@@ -54,7 +54,7 @@ def epl_for_league_data(szn_yrs):
     try: 
         epl_squad_poss_for = pd.read_html("https://fbref.com/en/comps/9/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"/"+str(szn_yrs[0])+"-"+str(szn_yrs[1])+"-Premier-League-Stats",
                                           attrs={"id": "stats_squads_possession_for"})[0]
-        print("FBref EPL team possession data downloaded and uploaded to excel file")
+        print("FBref EPL team possession data downloaded")
     except:
         epl_squad_poss_for = pd.DataFrame()
         print("No new Fbref overall data acquired")    
