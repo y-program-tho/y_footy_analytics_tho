@@ -68,5 +68,15 @@ def epl_for_league_data(szn_yrs):
         epl_squad_goal_shot_crt_for,
         epl_def_actns_for,
     ]
+    # Reformatting columns due to multiindex tuple structure when scraped from website 
+    for df in epl_gen_teams_data:
+        if str(type(df.columns)) == "<class 'pandas.core.indexes.multi.MultiIndex'>":
+            new_cols = []
+            for col in df.columns:
+                if col[0].startswith("Unnamed"):
+                    new_cols.append(col[1])
+                else:
+                    new_cols.append(col[0]+" "+col[1])
+            df.columns = new_cols
     return epl_gen_teams_data
 
