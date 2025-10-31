@@ -1,7 +1,7 @@
 # y_footy_analytics_tho
 
 The purpose of y_footy_analytics_tho is to have a data visualisations that can show me trends and outliers based on football leagues to make
-better decisions for my FPL, which will help others who want to attain a competive edge to their teams transfers and selsction.
+better decisions for my FPL, which will help others who want to attain a competive edge to their teams transfers and selections.
 
 The intention is to build various iterations of this web-based platform. For version 1.0 I itend to use the following technolgies to build the platform:
 - Python (Programming langauge)
