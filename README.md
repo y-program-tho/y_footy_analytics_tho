@@ -1,27 +1,10 @@
-# Y Footy Analytics (FPL Helper)
+# y_footy_analytics_tho
 
-A data-driven web application designed to help Fantasy Premier League (FPL) managers make better decisions for their team selections and transfers by providing insightful visualizations of football statistics and trends.
+The purpose of y_footy_analytics_tho is to have a data visualisations that can show me trends and outliers based on football leagues to make
+better decisions for my FPL, which will help others who want to attain a competive edge to their teams transfers and selsction.
 
-## Overview
-
-Y Footy Analytics automatically scrapes and analyzes football data from FBref, presenting it through an intuitive web interface. The platform helps users identify trends and outliers in football statistics, giving FPL managers a competitive edge in their decision-making process.
-
-## Features
-
-- Automated data collection from FBref
-- League-wide statistical analysis
-- Team performance tracking
-- Player statistics visualization
-- Interactive dashboards for data exploration
-- FPL-focused insights and metrics
-
-## Technologies Used
-
-### Core Technologies
-- Python (Programming language)
-- Streamlit (Web-based dashboards for data visualization)
-- Pandas (Data cleaning, mining, and aggregation)
-- Matplotlib + Seaborn (Data visualization)
+The intention is to build various iterations of this web-based platform. For version 1.0 I itend to use the following technolgies to build the platform:
+- Python (Programming langauge)
 - Python Google Sheets API (Data storage and warehousing)
 - BeautifulSoup4 (Web scraping)
 
